@@ -133,29 +133,29 @@ automax/
 
 ### Página Principal
 
-![alt text](Home.png)
+![alt text](./screenshots/Home.png)
 
 ### Filtro por Categoria
 
-![alt text](Sedans.png)
-![alt text](Suv.png)
-![alt text](Hatch.png)
+![alt text](./screenshots/Sedans.png)
+![alt text](./screenshots/Suv.png)
+![alt text](./screenshots/Hatch.png)
 
 ### Sistema de Busca
 
-![alt text](Busca.png)
+![alt text](./screenshots/Busca.png)
 
 ### Carrinho de Compras
 
-![alt text](CarrinhoCompra.png)
+![alt text](./screenshots/CarrinhoCompra.png)
 
 ### Produto Esgotado
 
-![alt text](Esgotado.png)
+![alt text](./screenshots/Esgotado.png)
 
 ### Versão Mobile
 
-![alt text](Mobile.png)
+![alt text](./screenshots/Mobile.png)
 
 ## 📊 Estrutura de Dados
 
