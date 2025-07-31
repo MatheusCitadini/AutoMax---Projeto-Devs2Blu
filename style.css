@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.glass-effect {
+  backdrop-filter: blur(20px);
+  background: rgba(250, 219, 219, 0.1);
+  border: 1px solid rgba(250, 248, 248, 0.2);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #2c51a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #2b4394 100%);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(54, 75, 192, 0.582);
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Corrigido: Estilos específicos para botões de adicionar ao carrinho */
+.add-to-cart-btn {
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.add-to-cart-btn:focus,
+.add-to-cart-btn:active {
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.5) !important;
+}
+
+.add-to-cart-btn:disabled {
+  transform: none !important;
+  cursor: not-allowed !important;
+}
+
+/* Animação para o badge de estoque */
+.stock-badge {
+  transition: all 0.2s ease;
+}
